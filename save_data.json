@@ -1,0 +1,306 @@
+{
+    "party": [
+        {
+            "name": "ライガ",
+            "job": "迅雷の剣士",
+            "hp": 147,
+            "mp": 88,
+            "atk": 32,
+            "level": 7,
+            "exp": 14,
+            "rank": "E",
+            "description": "雷鳴と共に現れ、一瞬で敵を切り伏せる放浪の剣士。極限まで高めた集中力は、周囲の時間を止めたかのような速さを生む。",
+            "skills": [
+                {
+                    "name": "神速・雷光斬",
+                    "power": 12,
+                    "mp_cost": 8,
+                    "effect_type": "damage"
+                },
+                {
+                    "name": "プラズマ・エッジ",
+                    "power": 20,
+                    "mp_cost": 15,
+                    "effect_type": "damage"
+                },
+                {
+                    "name": "ボルト・パワー",
+                    "power": 12,
+                    "mp_cost": 10,
+                    "effect_type": "buff"
+                }
+            ],
+            "image_path": "images/raiga.png",
+            "equipments": {
+                "weapon1": {
+                    "name": "雷鳴の弓",
+                    "type": "weapon1",
+                    "atk_bonus": 31,
+                    "hp_bonus": 0,
+                    "rarity": "Legendary"
+                },
+                "weapon2": {
+                    "name": "古びた銃",
+                    "type": "weapon2",
+                    "atk_bonus": 9,
+                    "hp_bonus": 0,
+                    "rarity": "Common"
+                },
+                "armor": {
+                    "name": "風神の盾",
+                    "type": "armor",
+                    "atk_bonus": 0,
+                    "hp_bonus": 15,
+                    "rarity": "Rare"
+                }
+            }
+        },
+        {
+            "name": "ルナフェル",
+            "job": "星詠みの聖女",
+            "hp": 120,
+            "mp": 74,
+            "atk": 24,
+            "level": 7,
+            "exp": 149,
+            "rank": "E",
+            "description": "星々の導きを読み解き、失われた古の治癒魔法を操る少女。",
+            "skills": [
+                {
+                    "name": "スターダストヒール",
+                    "power": 15,
+                    "mp_cost": 20,
+                    "effect_type": "heal"
+                },
+                {
+                    "name": "ルナ・プロテクション",
+                    "power": 12,
+                    "mp_cost": 12,
+                    "effect_type": "defense"
+                },
+                {
+                    "name": "シューティングスター",
+                    "power": 25,
+                    "mp_cost": 35,
+                    "effect_type": "damage"
+                }
+            ],
+            "image_path": "images/lunafell.png",
+            "equipments": {
+                "weapon1": {
+                    "name": "雷鳴の弓",
+                    "type": "weapon1",
+                    "atk_bonus": 10,
+                    "hp_bonus": 0,
+                    "rarity": "Common"
+                },
+                "weapon2": {
+                    "name": "雷鳴のナイフ",
+                    "type": "weapon2",
+                    "atk_bonus": 14,
+                    "hp_bonus": 0,
+                    "rarity": "Rare"
+                },
+                "armor": {
+                    "name": "凍てつく鎧",
+                    "type": "armor",
+                    "atk_bonus": 0,
+                    "hp_bonus": 14,
+                    "rarity": "Rare"
+                }
+            }
+        },
+        {
+            "name": "バルガス",
+            "job": "金剛の重戦士",
+            "hp": 304,
+            "mp": 49,
+            "atk": 35,
+            "level": 7,
+            "exp": 29,
+            "rank": "D",
+            "description": "古の山脈を守護する一族の末裔。その身体は岩石よりも硬く、仲間の盾となる。",
+            "skills": [
+                {
+                    "name": "アイアンフォートレス",
+                    "power": 12,
+                    "mp_cost": 10,
+                    "effect_type": "damage"
+                },
+                {
+                    "name": "地烈斬",
+                    "power": 15,
+                    "mp_cost": 12,
+                    "effect_type": "damage"
+                },
+                {
+                    "name": "金剛の構え",
+                    "power": 10,
+                    "mp_cost": 5,
+                    "effect_type": "buff"
+                }
+            ],
+            "image_path": "images/vargas.png",
+            "equipments": {
+                "weapon1": {
+                    "name": "伝説の弓",
+                    "type": "weapon1",
+                    "atk_bonus": 10,
+                    "hp_bonus": 0,
+                    "rarity": "Common"
+                },
+                "weapon2": null,
+                "armor": {
+                    "name": "伝説の鎧",
+                    "type": "armor",
+                    "atk_bonus": 0,
+                    "hp_bonus": 12,
+                    "rarity": "Rare"
+                }
+            }
+        }
+    ],
+    "enemies": [
+        {
+            "name": "キラーラット",
+            "job": "凶暴な大鼠",
+            "hp": 25,
+            "mp": 0,
+            "atk": 12,
+            "level": 1,
+            "exp": 0,
+            "rank": "G",
+            "description": "ダンジョンの入り口付近に生息する巨大な鼠。集団で襲いかかってくることが多く、初心者の冒険者にとっては最初の難関となる。",
+            "skills": [
+                {
+                    "name": "かみつく",
+                    "power": 8,
+                    "effect_type": "damage"
+                },
+                {
+                    "name": "ひっかく",
+                    "power": 5,
+                    "effect_type": "damage"
+                },
+                {
+                    "name": "不意打ち",
+                    "power": 12,
+                    "effect_type": "damage"
+                }
+            ],
+            "image_path": "images/killer_rat.png",
+            "equipments": {
+                "weapon1": null,
+                "weapon2": null,
+                "armor": null
+            }
+        },
+        {
+            "name": "マナ・ウィスプ",
+            "job": "魔力の残り火",
+            "hp": 15,
+            "mp": 40,
+            "atk": 5,
+            "level": 1,
+            "exp": 0,
+            "rank": "G",
+            "description": "古い遺跡や森に漂う、魔力の塊が意思を持ったもの。物理攻撃は効きにくいが、魔法にはめっぽう弱い。",
+            "skills": [
+                {
+                    "name": "フラッシュボルト",
+                    "power": 10,
+                    "effect_type": "damage"
+                },
+                {
+                    "name": "マナ・ドレイン",
+                    "power": 5,
+                    "effect_type": "damage"
+                },
+                {
+                    "name": "コメット・テイル",
+                    "power": 15,
+                    "effect_type": "damage"
+                }
+            ],
+            "image_path": "images/mana_wisp.png",
+            "equipments": {
+                "weapon1": null,
+                "weapon2": null,
+                "armor": null
+            }
+        },
+        {
+            "name": "ヴォルガディウス",
+            "job": "終焉の紅蓮龍",
+            "hp": 450,
+            "mp": 100,
+            "atk": 35,
+            "level": 1,
+            "exp": 0,
+            "rank": "C",
+            "description": "数千年の眠りから目覚めた古龍。その咆哮は大気を震わせる。",
+            "skills": [
+                {
+                    "name": "プロミネンス・レイド",
+                    "power": 25,
+                    "effect_type": "damage"
+                },
+                {
+                    "name": "バーニング・ブレス",
+                    "power": 18,
+                    "effect_type": "damage"
+                },
+                {
+                    "name": "メテオ・ストライク",
+                    "power": 40,
+                    "effect_type": "damage"
+                }
+            ],
+            "image_path": "images/volgadius.png",
+            "equipments": {
+                "weapon1": null,
+                "weapon2": null,
+                "armor": null
+            }
+        },
+        {
+            "name": "フォレスト・パペット",
+            "job": "呪われた古木",
+            "hp": 60,
+            "mp": 20,
+            "atk": 10,
+            "level": 1,
+            "exp": 0,
+            "rank": "G",
+            "description": "森の魔力によって動き出した古木の人形。多彩な行動で冒険者を翻弄する。",
+            "skills": [
+                {
+                    "name": "木の葉カッター",
+                    "power": 10,
+                    "effect_type": "damage"
+                },
+                {
+                    "name": "しびれ花粉",
+                    "power": 5,
+                    "effect_type": "status"
+                },
+                {
+                    "name": "大地の恵み",
+                    "power": 15,
+                    "effect_type": "heal"
+                },
+                {
+                    "name": "樹皮の守り",
+                    "power": 5,
+                    "effect_type": "defense"
+                }
+            ],
+            "image_path": "images/forest_puppet.png",
+            "equipments": {
+                "weapon1": null,
+                "weapon2": null,
+                "armor": null
+            }
+        }
+    ]
+}
